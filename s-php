@@ -1,0 +1,79 @@
+#!/bin/bash
+
+# Function to display error/help messages.
+function show_msg() {
+  [[ $1 == "invalid" ]] && echo -e "sphp: Invalid argument" || echo -e "usage: sphp version"
+	echo -e "\nPHP Versions :-";
+  # Display versions separated by  `,`.
+  versions=$(printf "%s, " ${php_ver[@]})
+  echo "${versions:0:-2}"
+  exit 1
+}
+
+# Define available PHP versions.
+declare -a php_vers
+php_ver=("5.6" "7.0" "7.1" "7.2" "7.3" "7.4" "8.0" "8.1")
+
+# Check input value.
+if [ -z "$1" ];
+then
+  show_msg invalid # Show invalid input message.
+elif [ $# -gt 1 ];
+then
+  echo -e "Too many arguments:- $@"
+  exit 1
+else
+  # Check input and show help message.
+  if [[ ( $@ == "--help") ||  $@ == "-h" ]];
+  then
+    show_msg
+  fi
+
+  # Check valid PHP version input.
+  if [[ ${php_ver[*]} =~ (^|[[:space:]])"${@}"($|[[:space:]]) ]];
+  then
+    php="php"$@
+    phar="phar"$@
+    echo -e "Disabling PHP versions."
+    echo "---------------------------"
+    # Disable active PHP of apache.
+    for i in "${php_ver[@]}"
+    do
+      sudo a2dismod "php"$i > /dev/null
+      printf "php"$i" x \n"
+    done
+  else
+    show_msg invalid # Show invalid input message.
+  fi
+
+  echo -e "\nActivating PHP version."
+  echo "---------------------------"
+  # Change PHP version of system.
+  sudo update-alternatives --set php /usr/bin/$php > /dev/null
+  sudo update-alternatives --set phar /usr/bin/$phar > /dev/null
+  sudo update-alternatives --set phar.phar /usr/bin/phar.$phar > /dev/null
+  printf $php" \u2714 \n"
+
+  # Check apache server is active or not.
+  if pgrep -x apache2 > /dev/null;
+  then
+    # Enable PHP version for apache.
+    echo -e "\nSwitch apache PHP version \u2714"
+    echo "---------------------------"
+    sudo a2enmod $php > /dev/null
+
+    # Restart apache server.
+    echo -e "\nRestart apache server \u2714"
+    echo "---------------------------"
+    sudo systemctl restart apache2 > /dev/null
+    sudo service apache2 restart > /dev/null
+  else
+    echo -e "\nApache server not running x"
+  fi
+
+  # Print new PHP cli version.
+  echo -e "\nCurrent PHP Version :-"
+  echo "---------------------------"
+  php -v
+  exit 1
+fi

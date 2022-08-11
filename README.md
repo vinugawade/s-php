@@ -48,10 +48,10 @@ s-php 8.1
 
 Connect with me :-
 <p align="left">
-<a href="https://github.com/vinugawade" target="blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="vinugawade" height="30" width="40" /></a>
-<a href="https://twitter.com/vinugawade" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="vinugawade" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/vinu-gawade" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="vinu-gawade" height="30" width="40" /></a>
-<a href="https://instagram.com/vinugawadevr" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="vinugawadevr" height="30" width="40" /></a>
+<a href="https://github.com/vinugawade" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="vinugawade" height="30" width="40" /></a>
+<a href="https://twitter.com/vinugawade" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="vinugawade" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/vinu-gawade" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="vinu-gawade" height="30" width="40" /></a>
+<a href="https://instagram.com/vinugawadevr" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="vinugawadevr" height="30" width="40" /></a>
 </p>
 
 ![Made With](https://ForTheBadge.com/images/badges/built-with-love.svg)

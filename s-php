@@ -1,4 +1,7 @@
 #!/bin/bash
+# This is a bash script that allows you to switch between different versions of PHP.
+# Creator :- Vinay Gawade.
+# Twitter :- @VinuGawade
 
 # Function to display error/help messages.
 function show_msg() {

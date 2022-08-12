@@ -3,7 +3,6 @@
 ![OS](https://img.shields.io/badge/Linux-white?style=flat-square&logo=linux&logoColor=black)
 ![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=flat-square&logo=gnu-bash&logoColor=white)
 ![GitHub](https://img.shields.io/github/license/vinugawade/s-php?style=flat-square)
-![PHP Version](https://img.shields.io/badge/PHP-%5E5.6-blue?style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues/vinugawade/s-php?style=flat-square)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/vinugawade/s-php?style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/vinugawade/s-php?style=flat-square)
@@ -16,17 +15,36 @@ If you're on linux system with PHP installed via apt, you may be looking for an 
 git clone git@github.com:vinugawade/s-php.git
 ```
 
+Move the script using below command
+
+```bash
+sudo mv /location/of/file /usr/local/bin
+```
+
+Allowing everyone to execute the script, enter:
+
+```bash
+sudo chmod +x /location/of/file
+
+OR
+
+sudo chmod 0755 /location/of/file
+
+```
+
 Add `/usr/local/bin` to your `$PATH`. If you use the Bash shell, you can do this by running this command:
 
 ```bash
-sudo mv ./s-php/s-php /usr/local/bin
+export PATH=$PATH:/usr/local/bin
+
+OR
+
+export PATH=$PATH:/location/of/file
 ```
 
-```bash
-echo 'export PATH="/usr/local/bin:$PATH"' >> $HOME/.bashrc
-```
+This will set the variable name: potentially in a file called `~/.bash_profile`, `~/.bashrc` or `~/.profile`. The difference between these files is (primarily) when they get read by the shell. If you're not sure where to put it, then `~/.bashrc` is a good choice.
 
-You may need to restart your shell for this to take effect.
+> **You may need to restart your shell for this to take effect.**
 
 ## Usage
 

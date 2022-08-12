@@ -5,11 +5,19 @@
 
 # Function to display error/help messages.
 function show_msg() {
-  [[ $1 == "invalid" ]] && echo -e "sphp: Invalid argument" || echo -e "usage: sphp version"
-  echo -e "\nPHP Versions :-"
+  [[ $1 == "invalid" ]] && echo -e "sphp: Invalid argument"
+  [[ $1 == "help" ]] && echo "Usage:
+  s-php <version> | [options]
+
+Easily switch PHP versions on Linux.
+
+Options:
+  -h, --help                 display this help and exit"
+
   # Display versions separated by `,`.
-  versions=$(printf "%s, ${php_ver[*]}")
-  echo "${versions:2}"
+  echo -e "\nPHP Versions :-"
+  versions=$(printf '%s, ' ${php_ver[*]})
+  echo "  ${versions::-2}"
   exit 1
 }
 
@@ -24,8 +32,8 @@ elif [ $# -gt 1 ]; then
   exit 1
 else
   # Check input and show help message.
-  if [[ ($* == "--help") || $* == "-h" ]]; then
-    show_msg
+  if [[ ($* == "--help") || ($* == "-h") ]]; then
+    show_msg help
   fi
 
   # Check valid PHP version input.

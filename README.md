@@ -25,20 +25,23 @@ Allowing everyone to execute the script, enter:
 
 ```bash
 sudo chmod +x /location/of/file
+```
 
 OR
 
+```bash
 sudo chmod 0755 /location/of/file
-
 ```
 
 Add `/usr/local/bin` to your `$PATH`. If you use the Bash shell, you can do this by running this command:
 
 ```bash
 export PATH=$PATH:/usr/local/bin
+```
 
 OR
 
+```bash
 export PATH=$PATH:/location/of/file
 ```
 

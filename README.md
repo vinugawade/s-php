@@ -51,14 +51,18 @@ This will set the variable name: potentially in a file called `~/.bash_profile`,
 
 ## Usage
 
+Now you can use the script from anywhere in `Terminal`. below are some examples.
+
 ```bash
 s-php 5.6
-s-php 7.0
-s-php 7.1
-s-php 7.2
-s-php 7.3
+```
+
+```bash
+s-php 7.4
+```
+
+```bash
 s-php 8.0
-s-php 8.1
 ```
 
 ## Screenshot

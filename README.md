@@ -2,7 +2,6 @@
 
 ![OS](https://img.shields.io/badge/Linux-white?style=flat-square&logo=linux&logoColor=black)
 ![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=flat-square&logo=gnu-bash&logoColor=white)
-![GitHub](https://img.shields.io/github/license/vinugawade/s-php?style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues/vinugawade/s-php?style=flat-square)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/vinugawade/s-php?style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/vinugawade/s-php?style=flat-square)
@@ -11,17 +10,21 @@ If you're on linux system with PHP installed via apt, you may be looking for an 
 
 ## Installation
 
+---
+
+Clone [this](https://github.com/vinugawade/s-php) repository to your local machine using below command.
+
 ```bash
 git clone git@github.com:vinugawade/s-php.git
 ```
 
-Move the script using below command
+Move the script using below command.
 
 ```bash
 sudo mv /location/of/file /usr/local/bin
 ```
 
-Allowing everyone to execute the script, enter:
+Allow everyone to execute the script, use below command.
 
 ```bash
 sudo chmod +x /location/of/file
@@ -33,7 +36,7 @@ OR
 sudo chmod 0755 /location/of/file
 ```
 
-Add `/usr/local/bin` to your `$PATH`. If you use the Bash shell, you can do this by running this command:
+Add `/usr/local/bin` to your `$PATH`. If you use the `Bash` shell,Then you can do this by running below command.
 
 ```bash
 export PATH=$PATH:/usr/local/bin
@@ -51,6 +54,8 @@ This will set the variable name: potentially in a file called `~/.bash_profile`,
 
 ## Usage
 
+---
+
 Now you can use the script from anywhere in `Terminal`. below are some examples.
 
 ```bash
@@ -65,11 +70,32 @@ s-php 7.4
 s-php 8.0
 ```
 
-## Screenshot
+Check below attached `GIF`.
+![Run s-php script](https://raw.githubusercontent.com/vinugawade/s-php/6912ab50d5d582dcb7025a75f102d59ddc27a792/docs/Use_of_script.gif)
 
-![Screenshot of s-php script](https://user-images.githubusercontent.com/65772870/184223193-4ebf4ae1-b06b-454c-9572-6716355a8624.png)
+## Contribution
+
+---
+
+### Step 1
+
+- **Option 1**
+  - 🍴 Fork this repo!
+
+- **Option 2**
+  - 👯 Clone [this](https://github.com/vinugawade/s-php) repository to your local machine.
+
+### Step 2
+
+- Make Chanages! 🔨 ✏️ ⌨️
+
+### Step 3
+
+- 🔃 Create a new `Pull Request`.
 
 ## About Me
+
+---
 
 Connect with me :-
 <p align="left">
@@ -80,3 +106,11 @@ Connect with me :-
 </p>
 
 ![Made With](https://ForTheBadge.com/images/badges/built-with-love.svg)
+
+## License
+
+---
+
+![GitHub](https://img.shields.io/github/license/vinugawade/s-php?style=flat-square)
+
+- **[GPL-v3.0 license](https://github.com/vinugawade/s-php/blob/d13064c2107ec20389916fbb755788c1cf9e09ff/LICENSE)**

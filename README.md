@@ -10,8 +10,6 @@ If you're on linux system with PHP installed via apt, you may be looking for an 
 
 ## Installation
 
----
-
 Clone [this](https://github.com/vinugawade/s-php) repository to your local machine using below command.
 
 ```bash
@@ -54,8 +52,6 @@ This will set the variable name: potentially in a file called `~/.bash_profile`,
 
 ## Usage
 
----
-
 Now you can use the script from anywhere in `Terminal`. below are some examples.
 
 ```bash
@@ -75,8 +71,6 @@ Check below attached `GIF`.
 
 ## Contribution
 
----
-
 ### Step 1
 
 - **Option 1**
@@ -95,8 +89,6 @@ Check below attached `GIF`.
 
 ## About Me
 
----
-
 Connect with me :-
 <p align="left">
 <a href="https://github.com/vinugawade" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="vinugawade" height="30" width="40" /></a>
@@ -108,8 +100,6 @@ Connect with me :-
 ![Made With](https://ForTheBadge.com/images/badges/built-with-love.svg)
 
 ## License
-
----
 
 ![GitHub](https://img.shields.io/github/license/vinugawade/s-php?style=flat-square)
 

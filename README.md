@@ -69,6 +69,10 @@ s-php 8.0
 Check below attached `GIF`.
 ![Run s-php script](https://raw.githubusercontent.com/vinugawade/s-php/6912ab50d5d582dcb7025a75f102d59ddc27a792/docs/Use_of_script.gif)
 
+## Mac User?
+
+> **Check this** :- [sphp](https://github.com/jschaedl/sphp-osx) Repository.
+
 ## Contribution
 
 ### Step 1

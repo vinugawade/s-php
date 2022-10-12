@@ -85,7 +85,7 @@ Check below attached `GIF`.
 
 ### Step 2
 
-- Make Chanages! 🔨 ✏️ ⌨️
+- Make Changes! 🔨 ✏️ ⌨️
 
 ### Step 3
 

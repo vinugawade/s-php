@@ -3,6 +3,9 @@
 # Creator :- Vinay Gawade.
 # Twitter :- @VinuGawade
 
+# s-php script version.
+VERSION="1.0.0"
+
 # Function to display error/help messages.
 function show_msg() {
   [[ $1 == "invalid" ]] && echo -e "sphp: Invalid argument"
@@ -12,7 +15,8 @@ function show_msg() {
 Easily switch PHP versions on Linux.
 
 Options:
-  -h, --help                 display this help and exit"
+  -h, --help                 display this help and exit
+  -v, --version              display s-php script version"
 
   # Display versions separated by `,`.
   echo -e "\nPHP Versions :-"
@@ -34,6 +38,12 @@ else
   # Check input and show help message.
   if [[ ($* == "--help") || ($* == "-h") ]]; then
     show_msg help
+  fi
+
+  # Check input and script version.
+  if [[ ($* == "--version") || ($* == "-v") ]]; then
+    echo -e "s-php v${VERSION} \nVisit :- https://vinugawade.github.io/s-php"
+    exit 1
   fi
 
   # Check valid PHP version input.

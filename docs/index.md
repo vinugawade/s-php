@@ -91,7 +91,7 @@ Check below attached `GIF`.
 
 - 🔃 Create a new `Pull Request`.
 
-## About Me
+## Maintainer ✨
 
 Connect with me :-
 <p align="left">
@@ -103,9 +103,7 @@ Connect with me :-
 
 ![Made With](https://ForTheBadge.com/images/badges/built-with-love.svg)
 
-## Maintainer ✨
-
-Built with 💛 by [Vinay Gawade](https://github.com/vinugawade).
+By [Vinay Gawade](https://github.com/vinugawade).
 
 <a href="https://www.linkedin.com/in/vinu-gawade" target="_blank"><img src="https://github.com/vinugawade/s-php/blob/master/docs/assets/images/media/LinkedIn.png" alt="LinkedIn QR" width="150"></a>
 <a href="https://twitter.com/VinuGawade" target="_blank"><img src="https://github.com/vinugawade/s-php/blob/master/docs/assets/images/media/Bmc.png" alt="Buy Me Coffe QR" width="150"></a>

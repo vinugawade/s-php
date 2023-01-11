@@ -10,8 +10,6 @@ If you're on linux system with PHP installed via apt, you may be looking for an 
 
 ## Installation
 
----
-
 Clone [this](https://github.com/vinugawade/s-php) repository to your local machine using below command.
 
 ```bash
@@ -54,8 +52,6 @@ This will set the variable name: potentially in a file called `~/.bash_profile`,
 
 ## Usage
 
----
-
 Now you can use the script from anywhere in `Terminal`. below are some examples.
 
 ```bash
@@ -71,11 +67,13 @@ s-php 8.0
 ```
 
 Check below attached `GIF`.
-![Run s-php script](https://raw.githubusercontent.com/vinugawade/s-php/6912ab50d5d582dcb7025a75f102d59ddc27a792/docs/Use_of_script.gif)
+![Run s-php script](https://github.com/vinugawade/s-php/blob/master/docs/assets/images/Use_of_script.gif)
+
+## Mac User?
+
+> **Check this** :- [sphp](https://github.com/jschaedl/sphp-osx) Repository.
 
 ## Contribution
-
----
 
 ### Step 1
 
@@ -87,15 +85,13 @@ Check below attached `GIF`.
 
 ### Step 2
 
-- Make Chanages! 🔨 ✏️ ⌨️
+- Make Changes! 🔨 ✏️ ⌨️
 
 ### Step 3
 
 - 🔃 Create a new `Pull Request`.
 
 ## About Me
-
----
 
 Connect with me :-
 <p align="left">
@@ -107,10 +103,20 @@ Connect with me :-
 
 ![Made With](https://ForTheBadge.com/images/badges/built-with-love.svg)
 
-## License
+## Maintainer ✨
+
+Built with 💛 by [Vinay Gawade](https://github.com/vinugawade).
+
+<a href="https://www.linkedin.com/in/vinu-gawade" target="_blank"><img src="https://github.com/vinugawade/s-php/blob/master/docs/assets/images/media/LinkedIn.png" alt="LinkedIn QR" width="150"></a>
+<a href="https://twitter.com/VinuGawade" target="_blank"><img src="https://github.com/vinugawade/s-php/blob/master/docs/assets/images/media/Bmc.png" alt="Buy Me Coffe QR" width="150"></a>
+<a href="https://twitter.com/VinuGawade" target="_blank"><img src="https://github.com/vinugawade/s-php/blob/master/docs/assets/images/media/Twitter.png" alt="Twitter QR" width="150"></a>
+
+<a href="https://www.buymeacoffee.com/vinaygawade" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 ---
 
-![GitHub](https://img.shields.io/github/license/vinugawade/s-php?style=flat-square)
+## License
 
-- **[GPL-v3.0 license](https://github.com/vinugawade/s-php/blob/d13064c2107ec20389916fbb755788c1cf9e09ff/LICENSE)**
+Check [here](LICENSE).
+
+![LICENSE](https://img.shields.io/github/license/vinugawade/ur-cache-cleaner?style=flat-square)

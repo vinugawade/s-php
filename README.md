@@ -13,7 +13,7 @@ If you're on linux system with PHP installed via apt, you may be looking for an 
 Clone [this](https://github.com/vinugawade/s-php) repository to your local machine using below command.
 
 ```bash
-git clone git@github.com:vinugawade/s-php.git
+git clone https://github.com/vinugawade/s-php.git
 ```
 
 Move the script using below command.

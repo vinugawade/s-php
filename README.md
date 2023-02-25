@@ -1,7 +1,7 @@
 # s-php :- version switcher for linux
 
 ![OS](https://img.shields.io/badge/Linux-white?style=flat-square&logo=linux&logoColor=black)
-![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=flat-square&logo=gnu-bash&logoColor=white)
+![Bash Script](https://img.shields.io/badge/Bash_Script-121011?style=flat-square&logo=gnu-bash&logoColor=white)
 ![GitHub issues](https://img.shields.io/github/issues/vinugawade/s-php?style=flat-square)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/vinugawade/s-php?style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/vinugawade/s-php?style=flat-square)

@@ -1,3 +1,9 @@
+<h1 align="center">
+  <br>
+    <img src="Logo.png" alt="logo" width="200">
+  <br>
+</h1>
+
 # s-php :- version switcher for linux
 
 ![OS](https://img.shields.io/badge/Linux-white?style=flat-square&logo=linux&logoColor=black)
